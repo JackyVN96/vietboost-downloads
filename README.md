@@ -2,6 +2,24 @@
 
 This repository contains the official packaged downloads for the VietBoost Chrome extension. The VietBoost website and source repository remain private.
 
+## Version 1.1.20
+
+Download [`vietboost-extension-1.1.20-chrome.zip`](./vietboost-extension-1.1.20-chrome.zip), then:
+
+1. Extract the ZIP to a permanent folder on your computer.
+2. Open `chrome://extensions` in Google Chrome.
+3. Enable **Developer mode**.
+4. Select **Load unpacked** and choose the extracted folder.
+
+SHA-256: `71D32FFA147F87A48B7D5DE3625C87D601693B59516023F9B33D1F6661500C7B`
+
+### What changed in 1.1.20
+
+- Unifies the daily download quota across supported platforms: guest 10, signed-in 100, VIP unlimited; bulk download and image/video conversion limits are separately configurable by an administrator.
+- Shows the true device activity update time and keeps popup, page toast, slide panel, and options language in sync after switching Vietnamese or English.
+- Lets administrators select only approved current OpenAI, Google Gemini, or DeepSeek models; the extension receives the same enabled provider/model metadata through the authenticated API.
+- Makes active public VIP promotion codes visible on the purchase flow and applies a shared or term-specific code server-side before payment.
+
 ## Version 1.1.19
 
 Download [`vietboost-extension-1.1.19-chrome.zip`](./vietboost-extension-1.1.19-chrome.zip), then:
