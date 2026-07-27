@@ -2,9 +2,9 @@
 
 This repository contains the official packaged downloads for the VietBoost Chrome extension. The VietBoost website and source repository remain private.
 
-## Version 1.1.10
+## Version 1.1.11
 
-Download [`vietboost-extension-1.1.10-chrome.zip`](./vietboost-extension-1.1.10-chrome.zip), then:
+Download [`vietboost-extension-1.1.11-chrome.zip`](./vietboost-extension-1.1.11-chrome.zip), then:
 
 1. Extract the ZIP to a permanent folder on your computer.
 2. Open `chrome://extensions` in Google Chrome.
@@ -13,10 +13,10 @@ Download [`vietboost-extension-1.1.10-chrome.zip`](./vietboost-extension-1.1.10-
 
 Check the [VietBoost changelog](https://vietboost.net/vi/changelog) before updating. Only use downloads published in this repository or linked from [vietboost.net](https://vietboost.net).
 
-SHA-256: `B8DA1C27879DE334000980799388BEE80AE4424997B6550D6A91CB8EB6B616F5`
+SHA-256: `0A21C7AA0E78308654F39282AF75350539E6C6FFCA71A14464D671928FE0802A`
 
-### What changed in 1.1.10
+### What changed in 1.1.11
 
-- Remove Taobao/Tmall branding from public platform catalogues while preserving the existing adapter for supported pages.
-- Update the Store-facing name, description, homepage, privacy disclosure, and release documentation.
-- Ask for clear acknowledgement before creating an anonymous guest installation record; local Saved content remains in the browser by default.
+- Saved content now follows a completed website sign-in immediately; no tab switch is required.
+- Cloud Library authorization resolves administrator access consistently at the protected API boundary.
+- The account currently used in the extension has been granted the VietBoost administrator role.
