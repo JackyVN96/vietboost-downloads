@@ -2,6 +2,24 @@
 
 This repository contains the official packaged downloads for the VietBoost Chrome extension. The VietBoost website and source repository remain private.
 
+## Version 1.1.16
+
+Download [`vietboost-extension-1.1.16-chrome.zip`](./vietboost-extension-1.1.16-chrome.zip), then:
+
+1. Extract the ZIP to a permanent folder on your computer.
+2. Open `chrome://extensions` in Google Chrome.
+3. Enable **Developer mode**.
+4. Select **Load unpacked** and choose the extracted folder.
+
+SHA-256: `AD756F9D419815E1FA30B872D7151434BEE0838B7DD3FFAB4EB4549C80C5C5BE`
+
+### What changed in 1.1.16
+
+- Adds Google Gemini alongside OpenAI and DeepSeek for VietBoost system AI and lets VIP members select the server-configured model.
+- Adds encrypted admin configuration for model, per-user rate/day limits, and input/output token pricing; the admin dashboard shows request, token, USD, VND, and recent-user usage data.
+- Enforces an atomic database-backed daily system-AI allowance in addition to signed extension sessions, VIP entitlements, user/IP/provider rate limits, strict request validation, and server-only API keys.
+- Adds a regression test for the public Douyin share-page resolver, which asks for the public `ratio=default` video stream rather than a preview URL.
+
 ## Version 1.1.15
 
 Download [`vietboost-extension-1.1.15-chrome.zip`](./vietboost-extension-1.1.15-chrome.zip), then:
