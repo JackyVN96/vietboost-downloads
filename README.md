@@ -2,6 +2,24 @@
 
 This repository contains the official packaged downloads for the VietBoost Chrome extension. The VietBoost website and source repository remain private.
 
+## Version 1.1.17
+
+Download [`vietboost-extension-1.1.17-chrome.zip`](./vietboost-extension-1.1.17-chrome.zip), then:
+
+1. Extract the ZIP to a permanent folder on your computer.
+2. Open `chrome://extensions` in Google Chrome.
+3. Enable **Developer mode**.
+4. Select **Load unpacked** and choose the extracted folder.
+
+SHA-256: `F17BF93106B909E782992F47B0F9AAE585C7B9685852A762887D88233E11F9FE`
+
+### What changed in 1.1.17
+
+- Uses the bundled OpenAI, Google Gemini, and DeepSeek marks in a clearer AI settings workspace.
+- Shows a real per-account daily system-AI meter from VietBoost instead of a client-side estimate.
+- Keeps the secure VietBoost system model and browser-local personal API key as distinct, clearly labelled choices.
+- Adds a responsive admin workspace frame so operational panels and forms keep consistent spacing away from the sidebar.
+
 ## Version 1.1.16
 
 Download [`vietboost-extension-1.1.16-chrome.zip`](./vietboost-extension-1.1.16-chrome.zip), then:
