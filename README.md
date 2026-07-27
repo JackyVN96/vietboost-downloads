@@ -2,9 +2,9 @@
 
 This repository contains the official packaged downloads for the VietBoost Chrome extension. The VietBoost website and source repository remain private.
 
-## Version 1.1.5
+## Version 1.1.6
 
-Download [`vietboost-extension-1.1.5-chrome.zip`](./vietboost-extension-1.1.5-chrome.zip), then:
+Download [`vietboost-extension-1.1.6-chrome.zip`](./vietboost-extension-1.1.6-chrome.zip), then:
 
 1. Extract the ZIP to a permanent folder on your computer.
 2. Open `chrome://extensions` in Google Chrome.
@@ -13,10 +13,10 @@ Download [`vietboost-extension-1.1.5-chrome.zip`](./vietboost-extension-1.1.5-ch
 
 Check the [VietBoost changelog](https://vietboost.net/vi/changelog) before updating. Only use downloads published in this repository or linked from [vietboost.net](https://vietboost.net).
 
-SHA-256: `2A26400DD98957CEB8498C63F7508225A5DE041EEE2AF26E68FAA494DEE6BA8E`
+SHA-256: `C905A4E0A6ABFAEAB32521BC74A413C523CCBB566E0E15B7E25C26402AC1DCB7`
 
-### What changed in 1.1.5
+### What changed in 1.1.6
 
-- Add a VIP local library with separate Link, Media, and Quick note tabs; each keeps up to 10 browser-local entries with optional titles, precise dates, deletion, and drag-to-reorder.
-- Add social recognition and branded local save support for YouTube, TikTok, Instagram, Facebook, and Pinterest, while preserving the established download pipeline for supported download adapters.
-- Fix Chrome blocking the action/toast logo on the new social sites by explicitly exposing the extension branding asset to those content-script origins.
+- Put the VIP local library directly in the compact extension popup with separate Scan and Save tabs.
+- Expand the platform catalog and logo grid to Rednote, X, ZCOOL, Taobao, TikTok, Douyin, Instagram, Facebook, YouTube, Pinterest, and Threads.
+- Allow popup scanning on the new social sites; generic social scans save media locally instead of showing a misleading direct-download action.
