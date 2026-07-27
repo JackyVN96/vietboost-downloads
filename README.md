@@ -2,6 +2,24 @@
 
 This repository contains the official packaged downloads for the VietBoost Chrome extension. The VietBoost website and source repository remain private.
 
+## Version 1.1.15
+
+Download [`vietboost-extension-1.1.15-chrome.zip`](./vietboost-extension-1.1.15-chrome.zip), then:
+
+1. Extract the ZIP to a permanent folder on your computer.
+2. Open `chrome://extensions` in Google Chrome.
+3. Enable **Developer mode**.
+4. Select **Load unpacked** and choose the extracted folder.
+
+SHA-256: `8D1E1992570D38E48114DB4431B9AF1F13B3E55A15FE5992758F7A550B5945B3`
+
+### What changed in 1.1.15
+
+- Restores a visible extension settings entry and lets VIP members choose VietBoost system AI or a browser-local personal API key.
+- Adds server-admin AI provider settings with encrypted API keys; extension clients receive model metadata only.
+- Adds Reddit recognition and media scanning support.
+- Reworks Douyin video discovery around its public share metadata and removes avatars/small UI images from post scans.
+
 ## Version 1.1.14
 
 Download [`vietboost-extension-1.1.14-chrome.zip`](./vietboost-extension-1.1.14-chrome.zip), then:
