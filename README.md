@@ -2,6 +2,23 @@
 
 This repository contains the official packaged downloads for the VietBoost Chrome extension. The VietBoost website and source repository remain private.
 
+## Version 1.1.18
+
+Download [`vietboost-extension-1.1.18-chrome.zip`](./vietboost-extension-1.1.18-chrome.zip), then:
+
+1. Extract the ZIP to a permanent folder on your computer.
+2. Open `chrome://extensions` in Google Chrome.
+3. Enable **Developer mode**.
+4. Select **Load unpacked** and choose the extracted folder.
+
+SHA-256: `625D3CB837743224D8E07C45FD40F825B3091A6EF8DDEBB824C84DA4FBDB37FC`
+
+### What changed in 1.1.18
+
+- Preserves the signed-in device across future extension updates by restoring a fresh short-lived access token from the trusted persisted refresh session.
+- Adds a restrained Chrome Web Store review prompt after real usage: three completed downloads and seven days of use, with a 45-day snooze and no repeat after rating.
+- Sends installation and update CTAs to the official Chrome Web Store listing.
+
 ## Version 1.1.17
 
 Download [`vietboost-extension-1.1.17-chrome.zip`](./vietboost-extension-1.1.17-chrome.zip), then:
