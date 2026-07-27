@@ -2,9 +2,9 @@
 
 This repository contains the official packaged downloads for the VietBoost Chrome extension. The VietBoost website and source repository remain private.
 
-## Version 1.1.8
+## Version 1.1.9
 
-Download [`vietboost-extension-1.1.8-chrome.zip`](./vietboost-extension-1.1.8-chrome.zip), then:
+Download [`vietboost-extension-1.1.9-chrome.zip`](./vietboost-extension-1.1.9-chrome.zip), then:
 
 1. Extract the ZIP to a permanent folder on your computer.
 2. Open `chrome://extensions` in Google Chrome.
@@ -13,11 +13,10 @@ Download [`vietboost-extension-1.1.8-chrome.zip`](./vietboost-extension-1.1.8-ch
 
 Check the [VietBoost changelog](https://vietboost.net/vi/changelog) before updating. Only use downloads published in this repository or linked from [vietboost.net](https://vietboost.net).
 
-SHA-256: `978B922D4CCEBFAD890374C2200B795717E97F33A89CE6642DD37B29FE16C657`
+SHA-256: `829A2CE77256A8570585CB29BCE3F0EF8F809D0581320C4F37737B7E49C7E9EA`
 
-### What changed in 1.1.8
+### What changed in 1.1.9
 
-- Add a persistent Vietnamese/English switch to popup, side panel, and options, with the saved-content workspace translated for global users.
-- Improve saved-content confirmations with a direct action that opens the library to organize the new item.
-- Keep library filters on one even line and refine the status selector for clear, accessible interaction.
-- Fix the website account menu hover gap so its actions stay available while moving the pointer into the menu.
+- Complete the Vietnamese/English experience across Account, platform access, Overview, VIP, Quick settings, Disclaimer, popup, and side-panel controls.
+- Keep the selected language synchronized through browser storage across popup, side panel, options, and React toasts.
+- Make saved-media confirmations explicitly name **Saved content** and provide a direct action to open it.
