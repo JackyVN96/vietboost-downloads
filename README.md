@@ -2,9 +2,9 @@
 
 This repository contains the official packaged downloads for the VietBoost Chrome extension. The VietBoost website and source repository remain private.
 
-## Version 1.1.6
+## Version 1.1.7
 
-Download [`vietboost-extension-1.1.6-chrome.zip`](./vietboost-extension-1.1.6-chrome.zip), then:
+Download [`vietboost-extension-1.1.7-chrome.zip`](./vietboost-extension-1.1.7-chrome.zip), then:
 
 1. Extract the ZIP to a permanent folder on your computer.
 2. Open `chrome://extensions` in Google Chrome.
@@ -13,10 +13,11 @@ Download [`vietboost-extension-1.1.6-chrome.zip`](./vietboost-extension-1.1.6-ch
 
 Check the [VietBoost changelog](https://vietboost.net/vi/changelog) before updating. Only use downloads published in this repository or linked from [vietboost.net](https://vietboost.net).
 
-SHA-256: `C905A4E0A6ABFAEAB32521BC74A413C523CCBB566E0E15B7E25C26402AC1DCB7`
+SHA-256: `350FB911A0F1D9E2DA784F7BB7F020581B7BDB78E132F73F573917681F060994`
 
-### What changed in 1.1.6
+### What changed in 1.1.7
 
-- Put the VIP local library directly in the compact extension popup with separate Scan and Save tabs.
-- Expand the platform catalog and logo grid to Rednote, X, ZCOOL, Taobao, TikTok, Douyin, Instagram, Facebook, YouTube, Pinterest, and Threads.
-- Allow popup scanning on the new social sites; generic social scans save media locally instead of showing a misleading direct-download action.
+- Make **Gom nội dung** the primary workspace in the popup and side panel: save links, media, and quick notes into an organized local library.
+- Require sign-in for local saved content while keeping it in the browser; VIP members can additionally sync their library securely with VietBoost.
+- Add collections, tags, statuses, pinning, drag-and-drop ordering, safer duplicate handling, and clear local limits for the initial release.
+- Keep the expanded social catalog and scan/download workflow available alongside the new research-and-save experience.
