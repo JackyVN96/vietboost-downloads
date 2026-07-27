@@ -2,6 +2,25 @@
 
 This repository contains the official packaged downloads for the VietBoost Chrome extension. The VietBoost website and source repository remain private.
 
+## Version 1.1.14
+
+Download [`vietboost-extension-1.1.14-chrome.zip`](./vietboost-extension-1.1.14-chrome.zip), then:
+
+1. Extract the ZIP to a permanent folder on your computer.
+2. Open `chrome://extensions` in Google Chrome.
+3. Enable **Developer mode**.
+4. Select **Load unpacked** and choose the extracted folder.
+
+Check the [VietBoost changelog](https://vietboost.net/vi/changelog) before updating. Only use downloads published in this repository or linked from [vietboost.net](https://vietboost.net).
+
+SHA-256: `BC40D81E2E59B40EFDEA593A5D6007183D724A9C2BCEE752FB09027895B89E86`
+
+### What changed in 1.1.14
+
+- Refines the VIP trial surface into one compact, server-authoritative offer.
+- Shows the trial only when the signed-in account is eligible on VietBoost.
+- Opens the membership page for the full benefit review and secure claim flow.
+
 ## Version 1.1.13
 
 Download [`vietboost-extension-1.1.13-chrome.zip`](./vietboost-extension-1.1.13-chrome.zip), then:
