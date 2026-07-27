@@ -2,6 +2,23 @@
 
 This repository contains the official packaged downloads for the VietBoost Chrome extension. The VietBoost website and source repository remain private.
 
+## Version 1.1.19
+
+Download [`vietboost-extension-1.1.19-chrome.zip`](./vietboost-extension-1.1.19-chrome.zip), then:
+
+1. Extract the ZIP to a permanent folder on your computer.
+2. Open `chrome://extensions` in Google Chrome.
+3. Enable **Developer mode**.
+4. Select **Load unpacked** and choose the extracted folder.
+
+SHA-256: `BE021484B371BCA822778C9DE6D2006B0656FF45DA50A35B80E4A8ECF5A5166B`
+
+### What changed in 1.1.19
+
+- Carries the selected Vietnamese or English language into page toasts, including scan and download progress.
+- Adds a compact live activity and quota surface for guest, signed-in, and VIP sessions; completed downloads are shown for the current Chrome profile, while the VIP system-AI meter remains account-authoritative.
+- Rebuilds the **Your API key** workspace with the official OpenAI, Google Gemini, and DeepSeek logos and clear per-provider status.
+
 ## Version 1.1.18
 
 Download [`vietboost-extension-1.1.18-chrome.zip`](./vietboost-extension-1.1.18-chrome.zip), then:
