@@ -2,9 +2,9 @@
 
 This repository contains the official packaged downloads for the VietBoost Chrome extension. The VietBoost website and source repository remain private.
 
-## Version 1.1.9
+## Version 1.1.10
 
-Download [`vietboost-extension-1.1.9-chrome.zip`](./vietboost-extension-1.1.9-chrome.zip), then:
+Download [`vietboost-extension-1.1.10-chrome.zip`](./vietboost-extension-1.1.10-chrome.zip), then:
 
 1. Extract the ZIP to a permanent folder on your computer.
 2. Open `chrome://extensions` in Google Chrome.
@@ -13,10 +13,10 @@ Download [`vietboost-extension-1.1.9-chrome.zip`](./vietboost-extension-1.1.9-ch
 
 Check the [VietBoost changelog](https://vietboost.net/vi/changelog) before updating. Only use downloads published in this repository or linked from [vietboost.net](https://vietboost.net).
 
-SHA-256: `829A2CE77256A8570585CB29BCE3F0EF8F809D0581320C4F37737B7E49C7E9EA`
+SHA-256: `B8DA1C27879DE334000980799388BEE80AE4424997B6550D6A91CB8EB6B616F5`
 
-### What changed in 1.1.9
+### What changed in 1.1.10
 
-- Complete the Vietnamese/English experience across Account, platform access, Overview, VIP, Quick settings, Disclaimer, popup, and side-panel controls.
-- Keep the selected language synchronized through browser storage across popup, side panel, options, and React toasts.
-- Make saved-media confirmations explicitly name **Saved content** and provide a direct action to open it.
+- Remove Taobao/Tmall branding from public platform catalogues while preserving the existing adapter for supported pages.
+- Update the Store-facing name, description, homepage, privacy disclosure, and release documentation.
+- Ask for clear acknowledgement before creating an anonymous guest installation record; local Saved content remains in the browser by default.
