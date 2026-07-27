@@ -2,9 +2,9 @@
 
 This repository contains the official packaged downloads for the VietBoost Chrome extension. The VietBoost website and source repository remain private.
 
-## Version 1.1.3
+## Version 1.1.5
 
-Download [`vietboost-extension-1.1.3-chrome.zip`](./vietboost-extension-1.1.3-chrome.zip), then:
+Download [`vietboost-extension-1.1.5-chrome.zip`](./vietboost-extension-1.1.5-chrome.zip), then:
 
 1. Extract the ZIP to a permanent folder on your computer.
 2. Open `chrome://extensions` in Google Chrome.
@@ -13,10 +13,10 @@ Download [`vietboost-extension-1.1.3-chrome.zip`](./vietboost-extension-1.1.3-ch
 
 Check the [VietBoost changelog](https://vietboost.net/vi/changelog) before updating. Only use downloads published in this repository or linked from [vietboost.net](https://vietboost.net).
 
-SHA-256: `58C8E8858B69374428BF303BF2E0466BC52A83D4F1C1AF20D52467A6F3FB9DBC`
+SHA-256: `2A26400DD98957CEB8498C63F7508225A5DE041EEE2AF26E68FAA494DEE6BA8E`
 
-### What changed in 1.1.3
+### What changed in 1.1.5
 
-- Fix original, PNG, and JPG downloads being blocked by an empty or stale adapter registry.
-- Show verified CDN byte sizes in scan results when the media server provides them.
-- Improve X timeline and video-resource scanning.
+- Add a VIP local library with separate Link, Media, and Quick note tabs; each keeps up to 10 browser-local entries with optional titles, precise dates, deletion, and drag-to-reorder.
+- Add social recognition and branded local save support for YouTube, TikTok, Instagram, Facebook, and Pinterest, while preserving the established download pipeline for supported download adapters.
+- Fix Chrome blocking the action/toast logo on the new social sites by explicitly exposing the extension branding asset to those content-script origins.
