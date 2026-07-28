@@ -2,6 +2,24 @@
 
 This repository contains the official packaged downloads for the VietBoost Chrome extension. The VietBoost website and source repository remain private.
 
+## Version 1.1.28
+
+Download [`vietboost-extension-1.1.28-chrome.zip`](./vietboost-extension-1.1.28-chrome.zip), then:
+
+1. Extract the ZIP to a permanent folder on your computer.
+2. Open `chrome://extensions` in Google Chrome.
+3. Enable **Developer mode**.
+4. Select **Load unpacked** and choose the extracted folder.
+
+SHA-256: `3D6EB182FC4DC2C869F53DDB6EFDD7117B680B55A14358A49B766AC52D7DA574`
+
+### What changed in 1.1.28
+
+- Synchronizes successful-download statistics with the signed-in VietBoost account independently of optional analytics consent.
+- Separates successful files from quota reservations so extension and website usage totals are clear and auditable.
+- Expands system-AI usage with the real daily reset time, completed requests, and token totals.
+- Aligns extension account usage with the new VIP trial, upgrade, renewal, plan-change, and lifetime lifecycle.
+
 ## Version 1.1.27
 
 Download [`vietboost-extension-1.1.27-chrome.zip`](./vietboost-extension-1.1.27-chrome.zip), then:
