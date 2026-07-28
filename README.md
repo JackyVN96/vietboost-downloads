@@ -2,6 +2,24 @@
 
 This repository contains the official packaged downloads for the VietBoost Chrome extension. The VietBoost website and source repository remain private.
 
+## Version 1.1.27
+
+Download [`vietboost-extension-1.1.27-chrome.zip`](./vietboost-extension-1.1.27-chrome.zip), then:
+
+1. Extract the ZIP to a permanent folder on your computer.
+2. Open `chrome://extensions` in Google Chrome.
+3. Enable **Developer mode**.
+4. Select **Load unpacked** and choose the extracted folder.
+
+SHA-256: `6D73F69F9474F4E69694CAF7A65BA9C979ADAA840DDF5971B7A36B38EB437651`
+
+### What changed in 1.1.27
+
+- Preserves exact provider whitespace and CJK characters while streaming AI results instead of inserting spaces between tokens.
+- Removes raw HTML and Markdown presentation markers before AI output is stored or shown.
+- Adds translation targets for Vietnamese, English, Chinese, Korean, Japanese, Thai, Indonesian, and Filipino in page quick actions and the context menu.
+- Works with the website's new automatic-plan-discount and voucher stacking rules.
+
 ## Version 1.1.26
 
 Download [`vietboost-extension-1.1.26-chrome.zip`](./vietboost-extension-1.1.26-chrome.zip), then:
