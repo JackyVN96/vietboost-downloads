@@ -2,6 +2,24 @@
 
 This repository contains the official packaged downloads for the VietBoost Chrome extension. The VietBoost website and source repository remain private.
 
+## Version 1.1.24
+
+Download [`vietboost-extension-1.1.24-chrome.zip`](./vietboost-extension-1.1.24-chrome.zip), then:
+
+1. Extract the ZIP to a permanent folder on your computer.
+2. Open `chrome://extensions` in Google Chrome.
+3. Enable **Developer mode**.
+4. Select **Load unpacked** and choose the extracted folder.
+
+SHA-256: `4B53CD4EE94A47D41185B290A3BABC286900053CFA41140DD9E0E67C008865DA`
+
+### What changed in 1.1.24
+
+- Adds Alibaba Qwen as a first-class AI provider on VietBoost and in the extension, including the bundled Qwen logo, approved model selection, personal API-key mode, and server-side connection testing.
+- Expands Saved content into a searchable, filterable, paginated card workspace with collections, tags, pin/status controls, editing, deletion, and cross-type drag-and-drop ordering.
+- Improves Quick note with formatting shortcuts, labels, collection/status controls, and a direct path from the on-page quick action to the full saved-notes workspace.
+- Extends page recognition and media scanning to regular websites while keeping account-backed library synchronization and locale state consistent across extension surfaces.
+
 ## Version 1.1.22
 
 Download [`vietboost-extension-1.1.22-chrome.zip`](./vietboost-extension-1.1.22-chrome.zip), then:
