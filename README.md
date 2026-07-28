@@ -2,6 +2,24 @@
 
 This repository contains the official packaged downloads for the VietBoost Chrome extension. The VietBoost website and source repository remain private.
 
+## Version 1.1.21
+
+Download [`vietboost-extension-1.1.21-chrome.zip`](./vietboost-extension-1.1.21-chrome.zip), then:
+
+1. Extract the ZIP to a permanent folder on your computer.
+2. Open `chrome://extensions` in Google Chrome.
+3. Enable **Developer mode**.
+4. Select **Load unpacked** and choose the extracted folder.
+
+SHA-256: `8AC94CC512738D486E50A20375DC1AC8098609C859657FAB513B67A320DE36C5`
+
+### What changed in 1.1.21
+
+- Keeps Vietnamese or English synchronized across popup, toast, page quick actions, scan results, tooltips, and settings while navigating between tabs.
+- Localizes the on-page media scanner and download controls instead of falling back to Vietnamese after the popup is switched to English.
+- Preserves toast locale listeners during action-chip remounts on dynamic social pages.
+- Ships together with public-site social preview fixes and a safer one-time PayPal checkout flow.
+
 ## Version 1.1.20
 
 Download [`vietboost-extension-1.1.20-chrome.zip`](./vietboost-extension-1.1.20-chrome.zip), then:
