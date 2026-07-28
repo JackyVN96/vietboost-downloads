@@ -2,6 +2,24 @@
 
 This repository contains the official packaged downloads for the VietBoost Chrome extension. The VietBoost website and source repository remain private.
 
+## Version 1.1.26
+
+Download [`vietboost-extension-1.1.26-chrome.zip`](./vietboost-extension-1.1.26-chrome.zip), then:
+
+1. Extract the ZIP to a permanent folder on your computer.
+2. Open `chrome://extensions` in Google Chrome.
+3. Enable **Developer mode**.
+4. Select **Load unpacked** and choose the extracted folder.
+
+SHA-256: `1881300B468775D3F5D13A129CE800F7BE8F1814C37A4E5C99FC00813202B799`
+
+### What changed in 1.1.26
+
+- Replaces raw Markdown placeholders in Quick note with selection-aware list, task, quote, and labelled-link tools.
+- Upgrades the on-page Saved content quick action with search, type filters, pagination, drag ordering, a formatting toolbar, and recent-note shortcuts.
+- Automatically falls back to an enabled VietBoost AI provider when an older saved provider is unavailable, preventing translation actions from failing with a generic unavailable message.
+- Keeps the AI provider selector aligned with the models that are currently enabled by the VietBoost server.
+
 ## Version 1.1.25
 
 Download [`vietboost-extension-1.1.25-chrome.zip`](./vietboost-extension-1.1.25-chrome.zip), then:
