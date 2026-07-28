@@ -2,6 +2,22 @@
 
 This repository contains the official packaged downloads for the VietBoost Chrome extension. The VietBoost website and source repository remain private.
 
+## Version 1.1.25
+
+Download [`vietboost-extension-1.1.25-chrome.zip`](./vietboost-extension-1.1.25-chrome.zip), then:
+
+1. Extract the ZIP to a permanent folder on your computer.
+2. Open `chrome://extensions` in Google Chrome.
+3. Enable **Developer mode**.
+4. Select **Load unpacked** and choose the extracted folder.
+
+SHA-256: `ED3C45ED42BE4F3D9AA337DE415B915EB0FDCB1A4DA0679B6CFD9572C67DC36F`
+
+### What changed in 1.1.25
+
+- Reads the visible extension version directly from the installed manifest so popup, panel, page quick action, and release UI cannot fall back to an old hard-coded version.
+- Keeps the Qwen provider, Qwen logo, expanded Saved content workspace, and Quick note improvements introduced in 1.1.24.
+
 ## Version 1.1.24
 
 Download [`vietboost-extension-1.1.24-chrome.zip`](./vietboost-extension-1.1.24-chrome.zip), then:
