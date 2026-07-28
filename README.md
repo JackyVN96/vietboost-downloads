@@ -2,6 +2,24 @@
 
 This repository contains the official packaged downloads for the VietBoost Chrome extension. The VietBoost website and source repository remain private.
 
+## Version 1.1.22
+
+Download [`vietboost-extension-1.1.22-chrome.zip`](./vietboost-extension-1.1.22-chrome.zip), then:
+
+1. Extract the ZIP to a permanent folder on your computer.
+2. Open `chrome://extensions` in Google Chrome.
+3. Enable **Developer mode**.
+4. Select **Load unpacked** and choose the extracted folder.
+
+SHA-256: `2C2A0C209F8F26B3EEC573B99204F63AAA9599CDEB43FAD5BE17AF4267A7A37B`
+
+### What changed in 1.1.22
+
+- Keeps the signed-in VietBoost account connected after a Chrome Web Store update by restoring the persisted refresh session without concurrent token rotation.
+- Enforces signed-in download, bulk-download, and conversion quotas against the VietBoost account database; clearing extension storage no longer resets account usage.
+- Adds compact Saved content, Scan media, and Quick note tabs to the on-page quick action.
+- Keeps Vietnamese and English synchronized across popup, toast, page quick actions, scan controls, usage statistics, and device settings.
+
 ## Version 1.1.21
 
 Download [`vietboost-extension-1.1.21-chrome.zip`](./vietboost-extension-1.1.21-chrome.zip), then:
