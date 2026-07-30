@@ -2,6 +2,24 @@
 
 This repository contains the official packaged downloads for the VietBoost Chrome extension. The VietBoost website and source repository remain private.
 
+## Version 1.1.35
+
+Download [`vietboost-extension-1.1.35-chrome.zip`](./vietboost-extension-1.1.35-chrome.zip), then:
+
+1. Extract the ZIP to a permanent folder on your computer.
+2. Open `chrome://extensions` in Google Chrome.
+3. Enable **Developer mode**.
+4. Remove the previous unpacked package, then select **Load unpacked** and choose the newly extracted folder.
+
+SHA-256: `ABDF8F82A05729C484261BA1A13F274B710A94F209A2F150615F07D6F23D51A8`
+
+### What changed in 1.1.35
+
+- Adds a durable library sync outbox so signed-in saves retry reliably after network or tab interruptions.
+- Expands Saved content with stronger account-backed synchronization and workspace-aware library handling.
+- Aligns extension AI calls with the server-managed provider flow and removes the obsolete client personal-AI path.
+- Ships together with website library workspaces, sharing links, semantic search, and account AI surfaces.
+
 ## Version 1.1.33
 
 Download [`vietboost-extension-1.1.33-chrome.zip`](./vietboost-extension-1.1.33-chrome.zip), then:
