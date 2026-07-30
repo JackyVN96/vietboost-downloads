@@ -2,6 +2,25 @@
 
 This repository contains the official packaged downloads for the VietBoost Chrome extension. The VietBoost website and source repository remain private.
 
+## Version 1.1.32
+
+Download [`vietboost-extension-1.1.32-chrome.zip`](./vietboost-extension-1.1.32-chrome.zip), then:
+
+1. Extract the ZIP to a permanent folder on your computer.
+2. Open `chrome://extensions` in Google Chrome.
+3. Enable **Developer mode**.
+4. Remove the previous unpacked package, then select **Load unpacked** and choose the newly extracted folder.
+
+SHA-256: `D912E24D1D72A83D1A21EC318B63B547FA2984969B1DB77ED0DE0842DF4BCBAC`
+
+### What changed in 1.1.32
+
+- Restores automatic Quick Action and toast availability on ordinary HTTP/HTTPS websites through a safe runtime that does not install social route polling, selection actions, or hover-download hooks.
+- Restores Chrome's **On all sites** permission choice while retaining the stable VietBoost extension identity.
+- Adds compact conflict guidance to the popup, side panel, and relevant error toasts for diagnosing another active download extension.
+- Uses the packaged VietBoost logo in Quick Action and extension-page toasts.
+- Smooths Quick note hover expansion and automatically collapses it after the pointer or focus leaves.
+
 ## Version 1.1.31
 
 Download [`vietboost-extension-1.1.31-chrome.zip`](./vietboost-extension-1.1.31-chrome.zip), then:
