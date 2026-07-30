@@ -2,6 +2,23 @@
 
 This repository contains the official packaged downloads for the VietBoost Chrome extension. The VietBoost website and source repository remain private.
 
+## Version 1.1.33
+
+Download [`vietboost-extension-1.1.33-chrome.zip`](./vietboost-extension-1.1.33-chrome.zip), then:
+
+1. Extract the ZIP to a permanent folder on your computer.
+2. Open `chrome://extensions` in Google Chrome.
+3. Enable **Developer mode**.
+4. Remove the previous unpacked package, then select **Load unpacked** and choose the newly extracted folder.
+
+SHA-256: `FB57C6A31E497A30288B128757AED87FBA39164E4B3D5CAE3A5C308ED9122CCE`
+
+### What changed in 1.1.33
+
+- Keeps Quick Action compact when a page loads, even when media is already detected or an older saved pin state exists.
+- Decouples compact toast notifications from the full Quick Action panel so notifications no longer expand the workspace.
+- Opens the panel temporarily on hover with automatic pointer-leave collapse, while explicit clicks and the current-page pin remain under user control.
+
 ## Version 1.1.32
 
 Download [`vietboost-extension-1.1.32-chrome.zip`](./vietboost-extension-1.1.32-chrome.zip), then:
