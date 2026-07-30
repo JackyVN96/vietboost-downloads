@@ -2,6 +2,25 @@
 
 This repository contains the official packaged downloads for the VietBoost Chrome extension. The VietBoost website and source repository remain private.
 
+## Version 1.1.30
+
+Download [`vietboost-extension-1.1.30-chrome.zip`](./vietboost-extension-1.1.30-chrome.zip), then:
+
+1. Extract the ZIP to a permanent folder on your computer.
+2. Open `chrome://extensions` in Google Chrome.
+3. Enable **Developer mode**.
+4. Remove the previous unpacked package, then select **Load unpacked** and choose the newly extracted folder.
+
+SHA-256: `28B0A42EB3646FB6F28E60FC39577A1DF8935B45A28966D7D519A5F14AE779CC`
+
+### What changed in 1.1.30
+
+- Keeps ordinary websites passive by default so VietBoost does not mount persistent overlays, intercept clicks, poll routes, or delay page content.
+- Preserves full social capture behavior on explicitly supported platforms, with manual one-time scanning still available on other pages through Chrome's `activeTab` permission.
+- Rebuilds Saved content into a compact, searchable library with type counts, filters, sorting, collections, and clear numeric pagination.
+- Adds a collapsible Quick note that opens on hover, compact saved cards, and stronger All, Link, Media, and Notes workflows.
+- Removes popup module-preload warnings and external font requests while preserving the stable extension identity.
+
 ## Version 1.1.28
 
 Download [`vietboost-extension-1.1.28-chrome.zip`](./vietboost-extension-1.1.28-chrome.zip), then:
